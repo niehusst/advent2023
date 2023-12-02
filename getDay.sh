@@ -10,6 +10,6 @@ then
 fi
 
 cargo new day$1
-curl "https://adventofcode.com/2022/day/$1/input" \
+curl "https://adventofcode.com/2023/day/$1/input" \
   --cookie "session=SESSION" \
   --compressed > day$1/src/input.txt
